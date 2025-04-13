@@ -1,0 +1,35 @@
+# __pycache__ フォルダ（Pythonのキャッシュ）
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 音声ファイル（wavなど）
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Whisper 出力JSON（文字起こし結果）
+*.json
+
+# テキスト出力（任意で追加）
+*.txt
+
+# 字幕付き画像・スクリーンショット
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+
+# 出力フォルダ（例: output_ファイル名）
+output_*/
+
+# 一時ファイル（エディタやOSが作るもの）
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCodeなど開発環境の設定（任意）
+.vscode/
+.idea/
